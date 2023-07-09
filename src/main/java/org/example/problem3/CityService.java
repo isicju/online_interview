@@ -6,12 +6,12 @@ import java.util.Date;
 public class CityService {
 
     public City findByName(String city) {
-        // find by equals name
+        // find by equals name lowecase
         return null;
     }
 
-    public City findCitiesByCountrySubNameAndCitySubName(String country, String city) {
-        //find all cities that contains country and city
+    public Collection<City> findCitiesByCountrySubNameAndCitySubName(String country, String city) {
+        //find all cities that contains country and city us mo => Russia, Moscow lowercase
         return null;
     }
 
